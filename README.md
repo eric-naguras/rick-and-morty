@@ -27,6 +27,8 @@ npm run dev
 npm run dev -- --open
 ```
 
+Run ``` npx houdini generate ``` after every change of the graphql query
+
 ## Building
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
@@ -36,3 +38,6 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+## Publishing to Cloudflare
+Create a wranger.toml file and run ``` npm run build && wrangler publish ```
