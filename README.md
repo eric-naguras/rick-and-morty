@@ -41,3 +41,7 @@ npm run build
 
 ## Publishing to Cloudflare
 Create a wranger.toml file and run ``` npm run build && wrangler publish ```
+
+## More info on the GraphQL client
+https://dev.to/alecaivazis/building-an-application-with-graphql-and-sveltekit-3heb
+https://github.com/AlecAivazis/houdini
